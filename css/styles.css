@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   width: 1440px;
-  height: 2076px;
 }
 /*Logo*/
 .logo {
@@ -119,16 +118,29 @@ body {
 }
 
 h1 {
-  color: #FFF;
-text-align: center;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 1.12px;
-padding: 188px 472px 292px 472px;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.071;
+  letter-spacing: 1.12px;
+  padding: 188px 472px 292px 472px;
 }
 
-.main-info .order-button {
-  padding: 356px 635px 188px 636px;
+.main-info button {
+  width: 176px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  margin: 356px 636px 188px 636px;
+  /* Button Text */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
 }
