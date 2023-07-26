@@ -1,18 +1,26 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
-}
 :root {
   --nav-color: #2e2f42;
+  --link-hover-color: #404bbf;
+  --logo-button-color: #4d5ae5;
+  --main-white-color: #fff;
+  --second-white-color: #f4f4fd;
+  --main-grey-color: #434455;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-grey-color);
+  background-color: var(--main-white-color);
 }
 
 ul {
   list-style-type: none;
+  text-decoration: none;
 }
 /*Logo*/
 .link-logo {
-  color: #4d5ae5;
+  color: var(--logo-button-color);
   font-size: 18px;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -26,19 +34,17 @@ ul {
   font-family: "Raleway", sans-serif;
   color: var(--nav-color);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-studio-footer {
-  color: #f4f4fd;
+  color: var(--second-white-color);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -51,63 +57,59 @@ ul {
 .nav-studio-link {
   color: var(--nav-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .nav-portfolio-link {
   color: var(--nav-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .nav-contacts-link {
   color: var(--nav-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .nav-studio-link:hover {
-  color: #404bbf;
+  color: var(--link-hover-color);
   text-decoration: underline;
-  text-decoration-color: #404bbf;
+  text-decoration-color: var(--link-hover-color);
 }
 
 .nav-portfolio-link:hover {
-  color: #404bbf;
+  color: var(--link-hover-color);
   text-decoration: underline;
-  text-decoration-color: #404bbf;
+  text-decoration-color: var(--link-hover-color);
 }
 
 .nav-contacts-link:hover {
-  color: #404bbf;
+  color: var(--link-hover-color);
   text-decoration: underline;
-  text-decoration-color: #404bbf;
+  text-decoration-color: var(--link-hover-color);
 }
 /*Adress*/
 .adress {
-  color: #434455;
+  color: var(--main-grey-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
 .adress:hover {
-  color: #404bbf;
+  color: var(--link-hover-color);
 }
 
 .contacts {
@@ -121,45 +123,44 @@ ul {
 }
 
 h1 {
-  color: #fff;
+  color: var(--main-white-color);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.071;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .main-info button {
-  background: #4d5ae5;
+  background: var(--logo-button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: var(--main-white-color);
   margin: 356px 636px 188px 636px;
+
+
   /* Button Text */
+  font-family: inherit;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 
 /*Text inside*/
 h3 {
   color: var(--nav-color);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 p {
-  color: v#434455;
+  color: var(--main-grey-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -167,20 +168,18 @@ h2 {
   text-align: center;
 
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--second-white-color);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 footer {
