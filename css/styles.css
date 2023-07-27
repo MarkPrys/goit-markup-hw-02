@@ -185,3 +185,78 @@ h2 {
 footer {
   background-color: var(--nav-color);
 }
+
+/* Buttons links portfolio */
+.button-all {
+  color: var(--logo-button-color);
+  background-color: var(--second-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.button-web-site {
+  color: var(--logo-button-color);
+  background-color: var(--second-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.button-app {
+  color: var(--logo-button-color);
+  background-color: var(--second-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.button-design {
+  color: var(--logo-button-color);
+  background-color: var(--second-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.button-marketing {
+  color: var(--logo-button-color);
+  background-color: var(--second-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+/* Buttons links portfolio Hover */
+
+.button-all:hover, .button-all:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-hover-color);
+}
+
+.button-web-site:hover, .button-web-site:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-hover-color);
+}
+
+.button-app:hover, .button-app:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-hover-color);
+}
+
+.button-design:hover, .button-design:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-hover-color);
+}
+
+.button-marketing:hover, .button-marketing:focus {
+  color: var(--main-white-color);
+  background-color: var(--link-hover-color);
+}
+
