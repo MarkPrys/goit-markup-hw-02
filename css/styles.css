@@ -57,7 +57,7 @@ a {
   text-decoration: none;
 }
 
-.nav-studio-link {
+.nav-link {
   color: var(--nav-color);
   font-size: 16px;
   font-weight: 500;
@@ -66,37 +66,9 @@ a {
   text-decoration: none;
 }
 
-.nav-portfolio-link {
-  color: var(--nav-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
 
-.nav-contacts-link {
-  color: var(--nav-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
 
-.nav-studio-link:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-  text-decoration-color: var(--link-hover-color);
-}
-
-.nav-portfolio-link:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-  text-decoration-color: var(--link-hover-color);
-}
-
-.nav-contacts-link:hover {
+.nav-link:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
   text-decoration-color: var(--link-hover-color);
@@ -226,7 +198,8 @@ footer {
 /* Buttons links portfolio Hover */
 
 .button-all:hover,
-.button-all:focus {
+.button-all:focus,
+.button-all:active {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
   font-family: "Roboto", sans-serif;
@@ -239,7 +212,8 @@ footer {
 }
 
 .button-portfolio:hover,
-.button-portfolio:focus {
+.button-portfolio:focus,
+.button-portfolio:active {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
   font-family: "Roboto", sans-serif;
