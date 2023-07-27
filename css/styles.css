@@ -212,7 +212,7 @@ footer {
   cursor: pointer;
 }
 
-.button-web-site {
+.button-portfolio {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
   font-family: "Roboto", sans-serif;
@@ -223,39 +223,7 @@ footer {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-app {
-  color: var(--logo-button-color);
-  background-color: var(--second-white-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.button-design {
-  color: var(--logo-button-color);
-  background-color: var(--second-white-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.button-marketing {
-  color: var(--logo-button-color);
-  background-color: var(--second-white-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
+
 /* Buttons links portfolio Hover */
 
 .button-all:hover, .button-all:focus {
@@ -270,43 +238,7 @@ footer {
   cursor: pointer;
 }
 
-.button-web-site:hover, .button-web-site:focus {
-  color: var(--main-white-color);
-  background-color: var(--link-hover-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button-app:hover, .button-app:focus {
-  color: var(--main-white-color);
-  background-color: var(--link-hover-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button-design:hover, .button-design:focus {
-  color: var(--main-white-color);
-  background-color: var(--link-hover-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button-marketing:hover, .button-marketing:focus {
+.button-portfolio:hover, .button-portfolio:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
   font-family: "Roboto", sans-serif;
