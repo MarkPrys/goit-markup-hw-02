@@ -52,6 +52,7 @@ ul {
 .list {
   text-decoration: none;
   list-style-type: none;
+  list-style: none;
 }
 
 .nav-studio-link {
@@ -122,13 +123,16 @@ ul {
   color: var(--nav-color);
 }
 
-h1 {
+.title {
   color: var(--main-white-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.071;
   letter-spacing: 0.02em;
+}
+.title-hide {
+display: none;
 }
 
 .main-info button {
@@ -187,47 +191,52 @@ footer {
 .button-all {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 .button-web-site {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .button-app {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .button-design {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .button-marketing {
   color: var(--logo-button-color);
   background-color: var(--second-white-color);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 /* Buttons links portfolio Hover */
@@ -235,25 +244,55 @@ footer {
 .button-all:hover, .button-all:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-web-site:hover, .button-web-site:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-app:hover, .button-app:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-design:hover, .button-design:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-marketing:hover, .button-marketing:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
