@@ -137,7 +137,7 @@ display: none;
 
 .main-info button {
   background: var(--logo-button-color);
-  color: var(--main-white-color);s
+  color: var(--main-white-color);
 
   /* Button Text */
   font-family: inherit;
