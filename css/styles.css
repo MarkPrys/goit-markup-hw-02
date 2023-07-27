@@ -7,7 +7,6 @@
   --main-grey-color: #434455;
 }
 
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-grey-color);
@@ -143,7 +142,7 @@ a {
   letter-spacing: 0.02em;
 }
 .title-hide {
-display: none;
+  display: none;
 }
 
 .main-info button {
@@ -226,7 +225,8 @@ footer {
 
 /* Buttons links portfolio Hover */
 
-.button-all:hover, .button-all:focus {
+.button-all:hover,
+.button-all:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
   font-family: "Roboto", sans-serif;
@@ -238,7 +238,8 @@ footer {
   cursor: pointer;
 }
 
-.button-portfolio:hover, .button-portfolio:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--main-white-color);
   background-color: var(--link-hover-color);
   font-family: "Roboto", sans-serif;
