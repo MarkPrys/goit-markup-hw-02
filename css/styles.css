@@ -199,7 +199,7 @@ h2 {
   text-transform: capitalize;
 }
 
-.title-section-three {
+.title-section {
   color: var(--nav-color);
   text-align: center;
 
@@ -275,4 +275,20 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+/* Section 4 */
+.section-four {
+  background-color: var(--second-white-color);
+}
+
+.team-frame {
+  background-color: var(--main-white-color);
+}
+.team-name {
+  color: var(--nav-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
