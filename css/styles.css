@@ -171,7 +171,6 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-}
 
 p {
   color: var(--main-grey-color);
@@ -196,6 +195,17 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.title-section-three {
+  color: var(--nav-color);
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
