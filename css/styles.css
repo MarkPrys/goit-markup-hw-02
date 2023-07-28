@@ -115,6 +115,7 @@ a {
 
 .title {
   color: var(--main-white-color);
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -217,7 +218,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
   background-color: var(--nav-color);
 }
 
