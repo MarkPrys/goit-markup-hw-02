@@ -118,11 +118,28 @@ a {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .title-hide {
   display: none;
+}
+/* Button */
+.button-order {
+background-color: var(--logo-button-color);
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--main-white-color);
+}
+
+.button-order:hover, 
+.button-order:focus,
+.button-order:active {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
 }
 
 .main-info button {
