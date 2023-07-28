@@ -97,7 +97,9 @@ a {
   text-decoration: none;
 }
 
-.adress:hover {
+.adress:hover,
+.adress:focus,
+.adress:active {
   color: var(--link-hover-color);
 }
 
