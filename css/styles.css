@@ -277,6 +277,17 @@ h2 {
   cursor: pointer;
 }
 
+/* Portfolio Main */
+.subhead-portfolio
+{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--nav-color);
+}
+
+
 /* Section 4 */
 .section-four {
   background-color: var(--second-white-color);
